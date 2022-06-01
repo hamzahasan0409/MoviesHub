@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="..\Css\Components\navbar.css">
     <!-- footer-css -->
     <link rel="stylesheet" href="..\Css\Components\footer.css">
+    <!-- moviedata-css -->
+    <link rel="stylesheet" href="..\Css\Pages\moviedata.css">
     <!-- google-fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +59,42 @@
             <li><a href="registration.php">Log in/Sign up</a></li>
         </ul>
     </nav>
-
+    <!-- movie-data -->
+    <section class="movie-banner">
+        <!--==img==================================-->
+        <div class="m-banner-img">
+            <img alt="cover" src="..\Images\Covers\Pirates-of-the-Caribbean-Cover.jpg">
+        </div>
+        <!--content================================-->
+        <div class="banner-container">
+            <!--title-container*******************----->
+            <div class="title-container">
+                <!--title-top===============-->
+                <div class="title-top">
+                    <!--title----->
+                    <div class="movie-title">
+                        <h1>Pirates of the Caribbean Salazar's Revenge</h1>
+                    </div>
+                    <!--more-about-movie-->
+                    <div class="more-about-movie">
+                        <span class="length">87 minutes</span>
+                        <span>28 August 2017</span>
+                    </div>
+                </div>
+                <!--Title-botttom==========================-->
+                <div class="title-bottom">
+                    <!--category------->
+                    <div class="category">
+                        <strong>Category</strong></br>
+                        <a href="#">Horror</a>, <a href="#">Mystery</a>, <a href="#">Thriller</a>
+                    </div>
+                    <!--trailer-btn---->
+                    <a href="https://www.youtube.com/watch?v=ZgQkEf3dQ08" class="watch-btn">Watch Trailer</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
     <!-- footer -->
     <footer>
         <!--footer-logo--->
