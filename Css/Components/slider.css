@@ -131,3 +131,10 @@
     font-weight: 800;
     color: #ffffff;
 }
+/* reponsive */
+@media (max-width:1200px) {
+    #main-slider,
+    .slider-btns{
+        width: 90%;
+    }
+}

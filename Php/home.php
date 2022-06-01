@@ -99,11 +99,165 @@
                     </div>
                 </div>
                 <!-- 2 -->
-                <div class="swiper-slide">Slide 2</div>
+                <!-- <div class="swiper-slide">Slide 2</div> -->
+                <div class="swiper-slide">
+                    <!-- slider-box -->
+                    <div class="main-slider-box">
+                        <!-- overlay -->
+                        <a href="#" class="main-slider-overlay">
+                            <ion-icon name="play"></ion-icon>
+                        </a>
+                        <!-- img -->
+                        <div class="main-slider-img">
+                            <img src="..\Images\Posters\Hulk-01.jpg" alt="poster 1">
+                        </div>
+                        <!-- text -->
+                        <div class="main-slider-text">
+                            <!-- length -->
+                            <span class="length">112 minutes</span>
+                            <!-- bottom_text -->
+                            <div class="bottom-text">
+                                <!-- name -->
+                                <div class="movie-name">
+                                    <span>2008</span>
+                                    <a href="#">The Incredible Hulk</a>
+                                </div>
+                                <!--category-->
+                                <div class="category">
+                                    <a href="#">Action</a>,<a href="#">Thriller</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- 3 -->
-                <div class="swiper-slide">Slide 3</div>
+                <!-- <div class="swiper-slide">Slide 3</div> -->
+                <div class="swiper-slide">
+                    <!-- slider-box -->
+                    <div class="main-slider-box">
+                        <!-- overlay -->
+                        <a href="#" class="main-slider-overlay">
+                            <ion-icon name="play"></ion-icon>
+                        </a>
+                        <!-- img -->
+                        <div class="main-slider-img">
+                            <img src="..\Images\Posters\Iron-Man-02.jpg" alt="poster 1">
+                        </div>
+                        <!-- text -->
+                        <div class="main-slider-text">
+                            <!-- length -->
+                            <span class="length">125 minutes</span>
+                            <!-- bottom_text -->
+                            <div class="bottom-text">
+                                <!-- name -->
+                                <div class="movie-name">
+                                    <span>2010</span>
+                                    <a href="#">Iron Man 2</a>
+                                </div>
+                                <!--category-->
+                                <div class="category">
+                                    <a href="#">Action</a>,<a href="#">Thriller</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- 4 -->
-                <div class="swiper-slide">Slide 4</div>
+                <!-- <div class="swiper-slide">Slide 4</div> -->
+                <div class="swiper-slide">
+                    <!-- slider-box -->
+                    <div class="main-slider-box">
+                        <!-- overlay -->
+                        <a href="#" class="main-slider-overlay">
+                            <ion-icon name="play"></ion-icon>
+                        </a>
+                        <!-- img -->
+                        <div class="main-slider-img">
+                            <img src="..\Images\Posters\Thor-01.jpg" alt="poster 1">
+                        </div>
+                        <!-- text -->
+                        <div class="main-slider-text">
+                            <!-- length -->
+                            <span class="length">114 minutes</span>
+                            <!-- bottom_text -->
+                            <div class="bottom-text">
+                                <!-- name -->
+                                <div class="movie-name">
+                                    <span>2011</span>
+                                    <a href="#">Thor</a>
+                                </div>
+                                <!--category-->
+                                <div class="category">
+                                    <a href="#">Action</a>,<a href="#">Thriller</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <!-- <div class="swiper-slide">Slide 5</div> -->
+                <div class="swiper-slide">
+                    <!-- slider-box -->
+                    <div class="main-slider-box">
+                        <!-- overlay -->
+                        <a href="#" class="main-slider-overlay">
+                            <ion-icon name="play"></ion-icon>
+                        </a>
+                        <!-- img -->
+                        <div class="main-slider-img">
+                            <img src="..\Images\Posters\Captain-America-01.jpg" alt="poster 1">
+                        </div>
+                        <!-- text -->
+                        <div class="main-slider-text">
+                            <!-- length -->
+                            <span class="length">126 minutes</span>
+                            <!-- bottom_text -->
+                            <div class="bottom-text">
+                                <!-- name -->
+                                <div class="movie-name">
+                                    <span>2008</span>
+                                    <a href="#">Captain America: The First Avenger</a>
+                                </div>
+                                <!--category-->
+                                <div class="category">
+                                    <a href="#">Action</a>,<a href="#">Thriller</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <!-- <div class="swiper-slide">Slide 6</div> -->
+                <div class="swiper-slide">
+                    <!-- slider-box -->
+                    <div class="main-slider-box">
+                        <!-- overlay -->
+                        <a href="#" class="main-slider-overlay">
+                            <ion-icon name="play"></ion-icon>
+                        </a>
+                        <!-- img -->
+                        <div class="main-slider-img">
+                            <img src="..\Images\Posters\Avengers-01.jpg" alt="poster 1">
+                        </div>
+                        <!-- text -->
+                        <div class="main-slider-text">
+                            <!-- length -->
+                            <span class="length">143 minutes</span>
+                            <!-- bottom_text -->
+                            <div class="bottom-text">
+                                <!-- name -->
+                                <div class="movie-name">
+                                    <span>2012</span>
+                                    <a href="#">Marvel's The Avengers</a>
+                                </div>
+                                <!--category-->
+                                <div class="category">
+                                    <a href="#">Action</a>,<a href="#">Thriller</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -135,6 +289,81 @@
                         <div class="movie-name">
                             <span>2014</span>
                             <a href="#">Paranormal Activity: The Marked Ones</a>
+                        </div>
+                        <div class="category-rating">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Thriller</a>,<a href="#">Mystery</a>,<a href="#">Thriller</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- post-box 2-->
+            <div class="post-box">
+                <!-- img -->
+                <div class="post-img">
+                    <img src="..\Images\Posters\p-2.jpg" alt="post01">
+                </div>
+                <div class="main-slider-text">
+                    <!-- quality -->
+                    <span class="length">126 minutes</span>
+                    <!-- bottom text -->
+                    <div class="bottom-text">
+                        <!-- name -->
+                        <div class="movie-name">
+                            <span>2017</span>
+                            <a href="#">Pirates of the Caribbean: Salazar's Revenge</a>
+                        </div>
+                        <div class="category-rating">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Thriller</a>,<a href="#">Mystery</a>,<a href="#">Thriller</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- post-box 3-->
+            <div class="post-box">
+                <!-- img -->
+                <div class="post-img">
+                    <img src="..\Images\Posters\p-3.jpg" alt="post01">
+                </div>
+                <div class="main-slider-text">
+                    <!-- quality -->
+                    <span class="length">126 minutes</span>
+                    <!-- bottom text -->
+                    <div class="bottom-text">
+                        <!-- name -->
+                        <div class="movie-name">
+                            <span>2020</span>
+                            <a href="#">BloodShot</a>
+                        </div>
+                        <div class="category-rating">
+                            <!--category-->
+                            <div class="category">
+                                <a href="#">Thriller</a>,<a href="#">Mystery</a>,<a href="#">Thriller</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- post-box 4-->
+            <div class="post-box">
+                <!-- img -->
+                <div class="post-img">
+                    <img src="..\Images\Posters\p-4.jpg" alt="post01">
+                </div>
+                <div class="main-slider-text">
+                    <!-- quality -->
+                    <span class="length">126 minutes</span>
+                    <!-- bottom text -->
+                    <div class="bottom-text">
+                        <!-- name -->
+                        <div class="movie-name">
+                            <span>2021</span>
+                            <a href="#">Venom: Let There Be Carnage</a>
                         </div>
                         <div class="category-rating">
                             <!--category-->
