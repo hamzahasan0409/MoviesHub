@@ -1,0 +1,82 @@
+/* responsive navbar */
+nav {
+    background: rgba(2, 13, 24, 1);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1 25px 0 rgba(2, 13, 24, 1);
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+}
+
+.menu a.select {
+    color: rgba(213, 255, 0, 1);
+    ;
+}
+
+nav a:hover {
+    color: rgba(213, 255, 0, 1);
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.logo a:hover {
+    color: rgba(213, 255, 0, 1);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0px 10px;
+    padding: 12px 8px;
+    font-size: 14px;
+}
+
+.toggle {
+    font-size: 18px;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        padding: 15px 20px;
+    }
+
+    .menu {
+        margin-top: 15px;
+        display: none;
+    }
+
+    .menu.active,
+    .toggle {
+        display: block;
+    }
+
+    .toggle {
+        position: absolute;
+        top: 25px;
+        right: 20px;
+    }
+}

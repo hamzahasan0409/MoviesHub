@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* body */
+body {
+    background: linear-gradient(360deg, rgba(30, 59, 112, 0.6), rgba(2, 13, 24, 0.6)) no-repeat center center fixed,
+        url("../../Images/background.jpg");
+    backdrop-filter: blur(2px);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
