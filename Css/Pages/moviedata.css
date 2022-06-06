@@ -177,7 +177,7 @@
     width: 100%;
     max-width: 500px;
 }
-.play-btn::before{
+.play-btn:before{
     content: '';
     position: absolute;
     left: 50%;

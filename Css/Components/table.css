@@ -87,7 +87,7 @@ table th {
 
     /* director responsive */
     .director-details table tbody tr td:nth-child(1):before {
-        content: "Director Name";
+        content: "Director";
         color: white;
     }
 
@@ -98,7 +98,7 @@ table th {
 
     /* actor-responsive */
     .actor-details table tbody tr td:nth-child(1):before {
-        content: "Actor Name";
+        content: "Actor";
         color: white;
     }
 
@@ -114,7 +114,7 @@ table th {
 
     /* quotes-responsive */
     .quotes-details table tbody tr td:nth-child(1):before {
-        content: "Actor Name";
+        content: "Actor";
         color: white;
     }
 

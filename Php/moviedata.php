@@ -132,7 +132,7 @@
                     <table class="director-table">
                         <thead>
                             <tr>
-                                <th>Director Name</th>
+                                <th>Director</th>
                                 <th>DOB</th>
                             </tr>
                         </thead>
@@ -142,7 +142,7 @@
                                 <td>30 May 1972</td>
                             </tr>
                             <tr>
-                                <td >Espen Sandberg</td>
+                                <td>Espen Sandberg</td>
                                 <td>17 June 1971</td>
                             </tr>
                         </tbody>
@@ -155,7 +155,7 @@
                     <table>
                         <thead>
                             <tr>
-                                <th>Actor Name</th>
+                                <th>Actor</th>
                                 <th>Role</th>
                                 <th>DOB</th>
                             </tr>
@@ -196,7 +196,7 @@
                     <table>
                         <thead>
                             <tr>
-                                <th>Actor Name</th>
+                                <th>Actor</th>
                                 <th>Role</th>
                                 <th>Quotes</th>
                             </tr>
