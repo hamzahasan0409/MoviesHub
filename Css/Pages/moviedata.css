@@ -100,8 +100,8 @@
 
 .title-bottom{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items:center;
     flex-wrap: wrap;
 }
 
@@ -141,8 +141,8 @@
     transition: all ease 0.3s;
 }
 .play-btn{
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,8 +153,8 @@
     position: relative;
 }
 .play-btn a{
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -166,7 +166,7 @@
 .play-btn a:hover{
     background-color: rgba(32, 51, 71, 1);
     transition: all ease 0.3s;
-    color: rgba(213, 255, 0, 1);
+    color: white;
 }
 
 .play-btn-container{
@@ -225,9 +225,9 @@
     padding: 10px;
 }
 
-@media(max-width:1000px){
+@media(max-width:1010px){
     .watch-btn{
-        margin-top: 20px;
+        margin-top: 30px;
     }
 }
 @media(max-width:750px){
@@ -235,21 +235,28 @@
         grid-template-columns: 1fr;
     }
     .play-btn-container{
-        margin-top:50px;
+        margin-top:80px;
         display: flex;
+    }
+    .play-btn,
+    .play-btn a{
+        width: 60px;
+        height: 60px;
     }
 }
 @media(max-width:600px){
     .movie-banner{
         padding: 20px;
     }
-  
+
+    
     .movie-title h1{
         font-size: 1.3rem;
         line-height: 30px;
     }
     .title-container{
         justify-content: flex-start;
+        margin-top: 50px;
     }
     .more-about-movie span{
         margin-top: 10px;
@@ -257,8 +264,14 @@
     }
     
     .title-bottom{
-        margin-top: 30px;
+        margin-top: 50px;
     }
+
+    .play-btn-container{
+        margin-top:30px;
+    
+    }
+
     .play-btn,
     .play-btn a{
         width: 50px;
