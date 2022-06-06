@@ -1,69 +1,130 @@
 table {
-    margin: 0;
-    padding: 0;
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: transparent;
+    border-radius: 6px;
+    overflow: hidden;
     width: 100%;
-    table-layout:fixed;
+    margin: 0 auto;
+    position: relative;
+    table-layout: fixed;
 }
 
-table tr {
-    background-color: transparent;
-    padding: .35em;
+table * {
+    position: relative;
 }
 
-table th{
-    padding: .625em;
-    text-align: left;
+table td,
+table th {
+    padding-left: 8px;
+}
+
+table thead tr {
+    height: 60px;
+    background: transparent;
+    font-size: 16px;
+    text-align: center;
     color: white;
 }
-table td {
-    padding: .625em;
-    text-align: left;
+
+table tbody tr {
+    height: 48px;
+    border: none;
     color: #747474;
 }
 
-table th {
-    font-size: .85em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+table tbody tr:last-child {
+    border: 0;
 }
 
-@media screen and (max-width: 600px) {
+table td,
+table th {
+    text-align: left;
+}
+
+
+@media screen and (max-width: 35.5em) {
     table {
-        border: 0;
+        display: block;
     }
 
-    table caption {
-        font-size: 1.3em;
+    table>*,
+    table tr,
+    table td,
+    table th {
+        display: block;
+        
     }
 
     table thead {
-        border: none;
-        clip: rect(0 0 0 0);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
+        display: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    table tbody tr {
+        height: auto;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    table tbody tr td {
+        padding-left: 45%;
+        margin-bottom: 12px;
+    }
+
+    table tbody tr td:last-child {
+        margin-bottom: 0;
+    }
+
+    table tbody tr td:before {
         position: absolute;
-        width: 1px;
+        font-weight: 700;
+        width: 40%;
+        left: 10px;
+        top: 0;
     }
 
-    table tr {
-        display: block;
-        margin-bottom: .625em;
+    /* director responsive */
+    .director-details table tbody tr td:nth-child(1):before {
+        content: "Director Name";
+        color: white;
     }
 
-    table td {
-        display: block;
-        font-size: .8em;
-        text-align: right;
+    .director-details table tbody tr td:nth-child(2):before {
+        content: "DOB";
+        color: white;
     }
 
-    table td::before {
-        float: left;
-        text-transform: uppercase;
+    /* actor-responsive */
+    .actor-details table tbody tr td:nth-child(1):before {
+        content: "Actor Name";
+        color: white;
     }
 
-    table td:last-child {
-        border-bottom: 0;
+    .actor-details table tbody tr td:nth-child(2):before {
+        content: "Role";
+        color: white;
+    }
+
+    .actor-details table tbody tr td:nth-child(3):before {
+        content: "DOB";
+        color: white;
+    }
+
+    /* quotes-responsive */
+    .quotes-details table tbody tr td:nth-child(1):before {
+        content: "Actor Name";
+        color: white;
+    }
+
+    .quotes-details table tbody tr td:nth-child(2):before {
+        content: "Role";
+        color: white;
+    }
+
+    .quotes-details table tbody tr td:nth-child(3):before {
+        content: "Quotes";
+        color: white;
     }
 }

@@ -206,7 +206,7 @@
 
 .details strong{
     color: #ffffff;
-    font-size: 1.3rem;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -223,4 +223,48 @@
 }
 .movie-plot{
     padding: 10px;
+}
+
+@media(max-width:1000px){
+    .watch-btn{
+        margin-top: 20px;
+    }
+}
+@media(max-width:750px){
+    .banner-container{
+        grid-template-columns: 1fr;
+    }
+    .play-btn-container{
+        margin-top:50px;
+        display: flex;
+    }
+}
+@media(max-width:600px){
+    .movie-banner{
+        padding: 20px;
+    }
+  
+    .movie-title h1{
+        font-size: 1.3rem;
+        line-height: 30px;
+    }
+    .title-container{
+        justify-content: flex-start;
+    }
+    .more-about-movie span{
+        margin-top: 10px;
+        display: flex;
+    }
+    
+    .title-bottom{
+        margin-top: 30px;
+    }
+    .play-btn,
+    .play-btn a{
+        width: 50px;
+        height: 50px;
+    }
+    .movie-details{
+        margin-top: 0px;
+    }
 }

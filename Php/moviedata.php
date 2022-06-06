@@ -142,7 +142,7 @@
                                 <td>30 May 1972</td>
                             </tr>
                             <tr>
-                                <td>Espen Sandberg</td>
+                                <td >Espen Sandberg</td>
                                 <td>17 June 1971</td>
                             </tr>
                         </tbody>
@@ -175,11 +175,6 @@
                                 <td>Orlando Bloom</td>
                                 <td>Will Turner</td>
                                 <td>13 January 1977</td>
-                            </tr>
-                            <tr>
-                                <td>Johnny Depp</td>
-                                <td>Captain Jack Sparrow</td>
-                                <td>9 June 1963 </td>
                             </tr>
                             <tr>
                                 <td>Geoffrey Rush</td>
